@@ -1,0 +1,31 @@
+.c-compromiso{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: flex-start;
+
+    width: 500px;
+   
+    gap: getGap(6);
+     
+    &__item{
+       display: flex;
+       gap: getGap(4);
+       align-items: center;
+       width: 240px;
+
+       font-family: 'Nunito', sans-serif;
+       font-size: getFontSize("s");
+       font-weight: getFontWeight(6);
+
+    }
+
+    &__header{
+        width: 100%;
+        font-family: 'Libre Baskerville', serif;
+        font-size: getFontSize("m");
+        font-weight: getFontWeight(7);
+    }
+                
+}

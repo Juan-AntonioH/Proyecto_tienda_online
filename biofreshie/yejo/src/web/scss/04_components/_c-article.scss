@@ -1,0 +1,92 @@
+.c-article{
+
+    display: flex;
+    flex-direction: row;
+    gap: getGap(11);
+
+    justify-content: space-between;
+
+    &--void{
+        width: 70vw;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__voidimg{
+        font-size: getFontSize("6xl");
+    }
+
+    &__voidtitle{
+        // font-family: 'Libre Baskerville', serif;
+        font-family: 'Outfit', sans-serif;
+        font-weight: getFontWeight(7);
+        font-size: getFontSize("2xl");   
+    }
+
+    &__voiddescription{
+        font-family: 'Nunito', sans-serif;
+        font-weight: getFontWeight(6);
+        font-size: getFontSize("l");
+
+    }
+
+    &__img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    &__name{
+        // font-family: 'Libre Baskerville', serif;
+        font-family: 'Outfit', sans-serif;
+        font-weight: getFontWeight(7);
+        font-size: getFontSize("xl");   
+    }
+
+    &__info{
+        width: 400px;
+    }
+
+    &__options{
+        width: 100px;
+    }
+
+    &__description{
+        font-family: 'Nunito', sans-serif;
+        font-size: getFontSize("l");
+    }
+
+    &__quantity{
+        display: flex;
+        gap: getGap(9);
+        align-items: center;
+    }
+
+    &__price{
+        font-weight: getFontWeight(7);
+        font-size: getFontSize("xl");
+    }
+
+    &__options{
+        text-align: right;
+    }
+
+    &__category{
+        font-family: 'Nunito', sans-serif;
+        color: getColor("principal",1);
+        font-weight:getFontWeight(6);
+
+    }
+
+    &__price{
+        font-family: 'Nunito', sans-serif;
+        font-weight: getFontWeight(7);
+        font-size: getFontSize("2xl");;
+    }
+
+
+}

@@ -1,0 +1,41 @@
+.c-formulario {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: getColor("blanco",8);
+    border-radius: getBorderRadius(5);
+    padding: getPadding(8) getPadding(10);
+    margin: getMargin(9);
+
+    @include box-shadow(3);
+
+    &__titulo {
+        font-weight: getFontWeight(9);
+        font-size: getFontSize("4xl");
+        padding-bottom: getPadding(6);
+        color: getColor("blanco", 8);
+    }
+
+    &__metodo {
+        font-weight: getFontWeight(9);
+        font-size: getFontSize("l");
+        color: getColor("blanco", 8);
+        padding-right: getPadding(6);
+
+    }
+
+    &__texto {
+        font-family: 'Nunito', sans-serif;
+        font-weight: getFontWeight(7);
+        color: getColor("negro", 3);
+        font-size: getFontSize("m");
+        padding: getPadding(2) getPadding(0) getPadding(1) getPadding(0);
+    }
+
+    &__img {
+        width: 70px;
+        padding-bottom: getPadding(6);
+    }
+
+}
+

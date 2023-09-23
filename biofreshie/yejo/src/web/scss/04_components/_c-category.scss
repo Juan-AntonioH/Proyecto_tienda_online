@@ -1,0 +1,45 @@
+.c-category{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: getGap(14);
+
+    padding-left: getPadding(17);
+    padding-right: getPadding(17);
+    padding-top: getPadding(6);
+    padding-bottom: getPadding(6);
+
+    color: getColor("negro",5);
+
+    background-color: getColor("principal",4);
+
+    // font-family: 'Libre Baskerville', serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: getFontSize("l");
+
+  
+    &__item{
+        cursor: pointer;
+        user-select: none;
+        text-decoration: none;
+        color: getColor("negro",5);
+
+        border-bottom: getBorderSize(1) solid getColor("principal",4);
+        border-top: getBorderSize(1) solid getColor("principal",4);
+    }
+
+    &__item:hover{
+       border-bottom: getBorderSize(1) solid getColor("negro",5);
+    }
+
+    &__item:focus{
+        border-bottom: getBorderSize(1) solid getColor("negro",5);
+    }
+
+    &__item--selected{
+        border-bottom: getBorderSize(1) solid getColor("negro",5);
+    }
+}
+

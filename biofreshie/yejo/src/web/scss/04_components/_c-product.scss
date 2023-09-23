@@ -1,0 +1,35 @@
+.c-product{
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: getColor("blanco", 8);
+    border-radius: getBorderRadiusSize(2);
+
+    gap: 16px;
+  
+    &__body{
+        display: flex;
+        flex-direction: column;
+        gap: getGap(12); //50px;
+        padding-left: getPadding(5);
+        padding-right: getPadding(5);
+    }
+
+    &__name{
+        // font-family: 'Libre Baskerville', serif;
+        font-family: 'Outfit', sans-serif;
+        font-weight: getFontWeight(7);
+        font-size: getFontSize("s");
+    }
+
+   
+    &__img{
+        border-top-left-radius: getBorderRadiusSize(2);
+        border-top-right-radius: getBorderRadiusSize(2);
+        height: 100px;
+        object-fit: cover;
+    }
+
+    
+}

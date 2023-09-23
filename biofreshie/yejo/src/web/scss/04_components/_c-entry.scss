@@ -1,0 +1,19 @@
+.c-entry {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 400px;
+
+
+    &__label{
+        font-family: 'Outfit', sans-serif;
+        font-weight: getFontWeight(7);
+        font-size: getFontSize("m");
+        color: getColor("negro", 5);
+        margin-top: getMargin(5);
+        margin-bottom: getMargin(2);
+    }
+
+  
+}

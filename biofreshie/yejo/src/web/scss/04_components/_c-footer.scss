@@ -1,0 +1,40 @@
+.c-footer{
+
+    display: flex;
+    flex-direction: column;
+
+    gap: getGap(12);
+
+
+    padding-top: getMargin(5);
+    padding-left: getPadding(17);
+    padding-right: getPadding(17);
+
+
+    background-color: getColor("principal", 5);
+    margin-top: auto;
+
+
+    &__section{
+        display: flex;
+        padding-top: getPadding(7);
+        padding-bottom: getPadding(7);
+
+        &--top{
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: getGap(10);
+        }
+
+
+        &--bottom{
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: 'Nunito', sans-serif;
+            font-size: getFontSize("m");
+            font-weight: getFontWeight(7);
+        }
+
+    }
+
+}

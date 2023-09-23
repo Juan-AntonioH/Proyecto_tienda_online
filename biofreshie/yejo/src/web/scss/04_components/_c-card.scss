@@ -1,0 +1,78 @@
+.c-card {
+    background-color: getColor("blanco", 8);
+    border-radius: getBorderRadiusSize(5);
+
+
+    display: flex;
+    flex-direction: column;
+
+    @include box-shadow(5);
+
+    &__img {
+        height: 240px;
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: getBorderRadiusSize(5);
+        border-top-right-radius: getBorderRadiusSize(5);
+    }
+
+    &__body{
+        padding: getPadding(6);
+        display: flex;
+        flex-direction: column;
+        gap: getGap(4);
+    }
+
+    &__name {
+        // font-family: 'Libre Baskerville', serif;
+        font-family: 'Outfit', sans-serif;
+        font-weight: getFontWeight(7);
+        font-size: getFontSize("xl");
+
+        text-overflow: clip;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    &__description {
+        font-family: 'Nunito', sans-serif;
+        font-size: getFontSize("m");
+        height: 90px;
+
+        text-overflow: clip;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+
+    &__price {
+        font-family: 'Nunito', sans-serif;
+        font-weight: getFontWeight(7);
+        font-size: getFontSize("2xl");;
+    }
+
+    &__btn {
+        display: block;
+        margin-left: auto;
+        margin-top: auto;
+    }
+
+    &__category{
+        font-family: 'Nunito', sans-serif;
+        font-weight: getFontWeight(6);
+        color: getColor("principal", 1);
+
+    }
+
+    
+    &__company{
+        font-family: 'Nunito', sans-serif;
+        font-size: getFontSize("xs");
+        font-weight: getFontWeight(8);
+
+    }
+
+}

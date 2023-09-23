@@ -1,0 +1,57 @@
+$colors: (
+    "principal": (#30AB51, #41BE69, #67C186, #87C9A2, #A4D6B9, #BAE3CE, #CDEFDE, #E5FAF1, #F1FEF9),
+    "alternativo":(#F99410, #FAAC2E, #FABD4C, #FBD06A, #FCDD88, #FDEAA5, #FDF3C3, #FEFAE1, #FEFCE6),
+    "negro":(#0D0B0F, #151117, #1D1820, #231C26, #2C232F, #352938, #3E3041, #48354B, #503852),
+    "gris":(#4F3B30, #625146, #766960, #88827C, #9C9996, #B3B0AD, #C8C5C1, #DAD7D3, #EBE9E5),
+    "blanco":(#DAFBF5, #E2F9F6, #E9F6F5, #EFF6F6, #F2F7F7, #F5F9F9, #F8FCFC, #FBFEFE, #FFFFFF),
+    "rojo": (#811D1D, #981B1B, #BA1C1C, #DC2828, #EF4343, #F87272, #FCA6A6, #FEC8C8, #FFFFFF),
+    "verde": (#064C39, #066046, #047756, #059467, #10B77F, #36D399, #6EE7B7, #A5F3CF, #D1FAE5),
+    "azul": (#1E3B8A, #1E3FAE, #1D4FD7, #2463EB, #3C83F6, #61A6FA, #91C3FD, #BEDBFE, #DCEBFE),
+    "turquesa":(#011619, #01323C, #015165, #00678A, #007CAD, #008BD1, #019EF9, #22A1FC, #47AAFA),
+    "morado":(#4c1d95, #5b21b6, #6d28d9, #7c3aed, #8b5cf6, #a78bfa, #c4b5fd, #ddd6fe, #ede9fe),
+    "amarillo": (#76350F, #91400D, #B35309, #DB7706, #F59F0A, #FBBD23, #FCD44F, #FDE68B, #FEF3C8),
+    "rosas":(#811842, #9B174C, #BF185D, #DB2979, #EC4699, #F471B5, #F9A9D5, #FBD0E8, #FCE8F4)
+);
+
+$weights:(100,200,300,400,500,600,700,800,900);
+$border-radius: (0px,2px,4px,6px,8px,16px,32px,64px);
+
+
+$padding: (0px,4px,6px,8px,10px,12px,16px,20px,24px,32px,40px,48px,64px,80px,96px,128px,160px,192px,224px,256px,320px,480px,640px);
+$margins:(0px,4px,6px,8px,10px,12px,16px,20px,24px,32px,40px,48px,64px,80px,96px,128px,160px,192px,224px,256px,320px,480px,640px);
+
+$gap:(0px,4px,6px,8px,10px,12px,16px,20px,24px,32px,40px,48px,64px,80px,96px,128px,160px,192px,224px,256px,320px,480px,640px);
+
+$font-sizes: (
+    "xxs":10px,
+    "xs":12px, 
+    "s":14px, 
+    "m":16px, 
+    "l":18px, 
+    "xl":20px, 
+    "2xl":24px, 
+    "3xl":30px, 
+    "4xl":36px, 
+    "5xl":48px, 
+    "6xl":64px
+);
+
+$border-sizes: (2px,4px,6px,8px,10px,12px,14px,16px,18px);
+$border-radius: (2px,4px,6px,8px,10px,12px,14px,16px,18px);
+
+$icon-sizes:(
+    "s":30px, 
+    "m":50px, 
+    "xl":100px 
+);
+
+$profundidades:(
+    "rgba(149, 157, 165, 0.2) 0px 8px 24px" , 
+    "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" , 
+    "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px", 
+    "rgba(0, 0, 0, 0.35) 0px 5px 15px", 
+    "rgba(0, 0, 0, 0.24) 0px 3px 8px", 
+    "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
+    "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px",
+    "rgba(255, 255, 255, .20) 1px 1px 50px 1px"
+);

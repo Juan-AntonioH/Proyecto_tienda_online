@@ -1,0 +1,46 @@
+.c-table{
+
+    font-family: 'Nunito', sans-serif;
+
+    &__header{
+        text-align: left;
+        font-weight: getFontWeight(7);
+    }
+    &__head{       
+        padding-right: getPadding(5);
+        padding-left: getPadding(5); 
+        padding-bottom: fetPaddin(5);  
+    }
+
+    
+    &__body{
+        text-align: center;
+    }
+    
+    &__item{
+        border-top: getBorderSize(1) solid getColor("negro", 1);
+        padding-top: getPadding(7);
+        padding-right: getPadding(5);
+        padding-left: getPadding(5); 
+        padding-bottom: getPadding(7); 
+
+
+        &--status-pay{
+            color: getColor("verde",3);
+            font-weight: getFontWeight(7);
+        }
+
+        &--status-pending{
+            color: getColor("alternativo",2 );
+            font-weight: getFontWeight(7);
+
+        }
+    
+    }
+
+    &__row:nth-child(odd){
+        background-color: getColor("blanco",3);
+    }
+
+
+}

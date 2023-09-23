@@ -1,0 +1,21 @@
+.c-newsletter{
+
+    width: 500px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: getGap(5);
+
+    &__title{
+        // font-family: 'Libre Baskerville', serif;
+        font-family: 'Outfit', sans-serif;
+        font-size: getFontSize("m");
+        font-weight: getFontWeight(7);
+    }
+
+    &__description{
+        font-family: 'Nunito', sans-serif;
+        font-size: getFontSize("s");
+    }
+
+}

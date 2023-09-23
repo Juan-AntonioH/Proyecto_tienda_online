@@ -1,0 +1,51 @@
+.c-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: getMargin(5);
+    gap: getGap(8);
+
+    padding-left: getPadding(17);
+    padding-right: getPadding(17);
+
+    padding-top: getPadding(5);
+    padding-bottom: getPadding(5);
+
+    
+    &__item--right{
+        margin-right: auto;
+    }
+
+    &__item--left{
+        margin-left: auto;
+    }
+
+    &__item{
+
+        display: flex;
+        align-items: flex-end;
+
+        padding: getPadding(4) getPadding(5);
+        border-radius: 50%;
+        transition: all 0.3s ease-in-out;
+
+        cursor: pointer;
+        user-select: none;
+
+        font-family: 'Outfit', sans-serif;
+    }
+
+    &__item:hover {
+        background-color: getColor("gris", 6);
+        border-radius: 50%;
+        padding: getPadding(4) getPadding(5);
+    }
+
+   
+
+    
+}
+
+
+

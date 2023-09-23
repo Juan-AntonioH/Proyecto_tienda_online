@@ -1,0 +1,127 @@
+.c-button{
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border: 0px;
+
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: getFontWeight(7);
+
+    transition: all 0.3s ease;
+
+
+    &--primario{
+       
+        &-normal{
+            padding: getPadding(4) getPadding(7);
+            background-color: getColor("principal",4);
+            color: getColor("negro",5);
+            border-radius: getBorderRadiusSize(3);
+            display: inline-block;
+            margin-top: auto;
+
+
+            &:hover{
+                background-color: getColor("principal",3);
+            }
+        }
+
+        &-alternativo{
+            padding: getPadding(4) getPadding(7);
+            background-color: getColor("alternativo",4);
+            color: getColor("negro",5);
+            border-radius: getBorderRadiusSize(3);
+            display: inline-block;
+            margin-top: auto;
+
+
+            &:hover{
+                background-color: getColor("alternativo",3);
+            }
+        }
+
+        &-peligroso{
+            padding: getPadding(4) getPadding(7);
+            background-color: getColor("rojo",7);
+            color: getColor("negro",5);
+            border-radius: getBorderRadiusSize(3);
+            display: inline-block;
+            margin-top: auto;
+
+
+            &:hover{
+                background-color: getColor("rojo",6);
+            }
+        }
+    }
+
+    &--secunadario{
+        &-normal{
+            padding: getPadding(4) getPadding(7);
+            color: getColor("negro",5);
+            border-radius: getBorderRadiusSize(3);
+            display: inline-block;
+            margin-top: auto;
+        }
+
+        &-alternativo{
+            padding: getPadding(4) getPadding(7);
+            color: getColor("negro",5);
+            border-radius: getBorderRadiusSize(3);
+            display: inline-block;
+            margin-top: auto;
+        }
+
+        &-peligroso{
+            padding: getPadding(4) getPadding(7);
+            color: getColor("negro",5);
+            border-radius: getBorderRadiusSize(3);
+            display: inline-block;
+            margin-top: auto;
+        }
+    }
+
+    &--terciario{
+        &-normal{
+            color: getColor("negro",5);
+        }
+
+        &-alternativo{
+            color: getColor("negro",5);
+        }
+
+        &-peligroso{
+            color:  getColor("rojo",3);
+        }
+    }
+
+
+    &--quantity{
+        border-radius: 50%;
+        padding: getPadding(5) getPadding(6);
+        background-color: getColor("principal",4);
+        color: getColor("blanco",8);
+        margin: auto;
+
+        &:hover{
+            background-color: getColor("principal",3);
+        }
+    }
+
+
+    &--newsletter{
+        padding: getPadding(4) getPadding(5);
+        background-color: getColor("principal",3);
+        color: getColor("verde", 2);
+        border-radius: 0px;
+    }
+
+    &--entry{
+        width: 100%;
+    }
+
+
+}
+

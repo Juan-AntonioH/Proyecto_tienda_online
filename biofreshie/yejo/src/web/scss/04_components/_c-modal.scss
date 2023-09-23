@@ -1,0 +1,73 @@
+.c-modal{
+
+    border-radius: getBorderRadiusSize(3);
+    border: 0px;
+
+    background-color: getColor("blanco", 8);
+    padding: getPadding(9);
+    
+
+    @include box-shadow(3);
+    
+    &__total{
+        font-family: 'Nunito', sans-serif;
+        
+        font-weight: getFontWeight(7);
+        font-size: getFontSize("2xl");
+    
+       
+        text-align: right;
+        padding-top: getPadding(4);
+    }
+
+   
+    &__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__title{
+        font-weight: getFontWeight(4);
+        font-size: getFontSize("m");
+    }
+
+    &__close{
+        font-weight: getFontWeight(8);
+        font-size: getFontSize("3xl");
+        cursor: pointer;
+    }
+
+    &__body{
+        display: flex;
+        flex-direction: column;
+        max-height: 450px;
+        overflow-y: auto;
+    }
+
+    &__body--preview{
+        display: flex;
+        flex-direction: column;
+        padding-right: getPadding(8);
+        height: 400px;
+    }
+
+
+
+    &__footer{
+        margin-top: getMargin(4);
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        border-top: getBorderSize(1) solid getColor("principal",4);
+        text-align: end;
+    }
+
+    &__btn{
+        margin-top: getMargin(6);
+    }
+
+   
+
+}

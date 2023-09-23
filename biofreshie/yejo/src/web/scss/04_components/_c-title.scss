@@ -1,0 +1,18 @@
+.c-title{
+    font-weight: getFontWeight(6);
+    font-size: getFontSize("3xl");
+    margin-top: getMargin(8);
+    margin-bottom:  getMargin(8);
+
+    // font-family: 'Libre Baskerville', serif;
+    font-family: 'Outfit', sans-serif;
+
+
+    &--s{
+        font-size: getFontSize("xl");
+    }
+
+    &--xl{
+        font-size: getFontSize("4xl");
+    }
+}
